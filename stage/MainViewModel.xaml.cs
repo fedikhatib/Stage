@@ -26,7 +26,7 @@ namespace stage
             InitializeComponent();
             
             this.MyModel = new PlotModel { Title = pl.nom };
-            this.MyModel.Series.Add(new FunctionSeries(Math.Cos, Double.Parse(pl.haxe), 10, 0.1, "cos(x)"));
+            this.MyModel.Series.Add(new FunctionSeries(Math.Cos, , Double.Parse(pl.haxe), Double.Parse(pl.vaxe) 0.1));
             DataContext = this;
         }
 
